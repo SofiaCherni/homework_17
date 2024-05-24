@@ -158,7 +158,7 @@ for(i = 1;i <= 100; i++){
 
 document.write('</br></br>');
 
-//16
+16
 document.write('16)');
 result = 0;
 
@@ -168,7 +168,7 @@ for(i = 2; i < num2; i++) {
     }
 }
 
-if (result === false){
+if (result === false || num2 <= 1){
     document.write('Число ' + num2 + ' не простое');
 } else {
     document.write('Число ' + num2 + ' простое');
